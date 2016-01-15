@@ -9,7 +9,7 @@ DISK_CACHE=${DISK_CACHE:="$HOME/.polipo-cache"}
 
 echo '--> setup polipo'
 
-mkdir -p "$HOME/.polipo-cache"
+mkdir -p "$DISK_CACHE"
 
 cat <<EOT > "$HOME/.polipo"
 allowedClients = 127.0.0.1
